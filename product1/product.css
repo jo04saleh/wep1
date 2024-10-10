@@ -12,7 +12,7 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+/* هيني استخدمت flex  */ 
 .container {
     display: flex;
     background-color: white;
@@ -21,7 +21,7 @@ body {
     max-width: 800px;
     overflow: hidden;
 }
-
+/* هدول عشان الصوره */ 
 .product-image img {
     width: 300px;
     object-fit: cover;
@@ -59,19 +59,19 @@ body {
     gap: 10px;
     margin-bottom: 20px;
 }
-
+/*  هاد للسعر*/ 
 .price {
     font-size: 28px;
     font-weight: bold;
     color: #228B22;
 }
-
+/* السعر قبل الخصم*/ 
 .old-price {
     font-size: 18px;
     color: gray;
     text-decoration: line-through;
 }
-
+/*هاد للكبسه الي تحت  */ 
 .add-to-cart {
     background-color: #228B22;
     color: white;
@@ -82,7 +82,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+/* هاد بس اقرب الماوس عليه بصير لون اغمق*/ 
 .add-to-cart:hover {
     background-color: #1a6e1a;
 }
